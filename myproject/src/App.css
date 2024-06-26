@@ -1,0 +1,54 @@
+/* Filename: App.css */
+
+.App { 
+	text-align: center; 
+	background-color: yellowgreen;
+	block-size: auto;
+} 
+
+.label { 
+	display: block; 
+	font-size: larger; 
+	color: white; 
+	padding: 5px; 
+} 
+
+.input { 
+	font-size: smaller; 
+	padding: 2px; 
+	margin: 2px; 
+
+} 
+
+.btn { 
+	color: white; 
+	background-color: red; 
+	border-radius: 5px; 
+	font-size: smaller; 
+	display:inline-flex; 
+	padding: 2px; 
+	margin: 10px auto; 
+} 
+
+.messages { 
+	display: flex; 
+	justify-content: center; 
+} 
+
+.error { 
+	display: block; 
+	background-color: red; 
+	color: white; 
+	width: fit-content; 
+	height: 50px; 
+	padding: 5px; 
+} 
+
+.success { 
+	display: block; 
+	background-color: lightblue; 
+	color: black; 
+	width: fit-content; 
+	height: 50px; 
+	padding: 5px; 
+}
